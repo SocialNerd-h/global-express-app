@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 import Nav from './_ui/Navbar/Nav';
-import Footer from './_ui/Footer';
+import Footer from './_ui/Footer/Footer';
 
 const geistSans = localFont({
 	src: './fonts/UbuntuRegular.woff',
